@@ -1,4 +1,4 @@
-# Burger Stack: Node Express & Handlebars
+# Eat Da Burger: Node Express & Handlebars
 
 ## A Full-Stack App
 
@@ -14,9 +14,9 @@ This full-stack app follows an MVC design paradigm, using Node and MySQL to quer
 
 The live site is deployed to Heroku from this GitHub repo with a MySQL JAWSDB database server. 
 
-The live site can be viewed here: https://samdotkim-burgerlogger.herokuapp.com/
+The live site can be viewed here: https://fast-bayou-41214.herokuapp.com/
 
-![Burger Stack Homepage](burgerstack.png)
+![Burger Stack Homepage]
 
 ## Functionality
 
