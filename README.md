@@ -1,4 +1,4 @@
-# Full Stack Burgers BurgerLogger (Node Express Handlebars)
+# sam.kim Burgers BurgerLogger (Node Express Handlebars)
 
 ## Overview
 
