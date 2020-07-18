@@ -1,21 +1,4 @@
 {
-  "name": "mysql-sequelize-heroku",
-  "version": "1.0.0",
-  "description":"",
-  "main": "server.js",
-  "scripts": {
-    "tests": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Albert B",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.15.0",
-    "express": "^4.13.4",
-    "express-handlebars": "^3.0.0",
-    "mysql": "^2.10.2"
-  }
-}
-{
   "name": "eat-tha-burger",
   "version": "1.0.0",
   "description": "An MVC burger logger ORM",
@@ -33,7 +16,7 @@
     "MVC",
     "Node"
   ],
-  "author": "samdotkim",
+  "author": "Connie Tran",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
