@@ -1,13 +1,12 @@
 <div class="container">
-  <h1>Full Stack Burgers</h1>
-  <h3>Delicious full stack burgers</h3>
+  <h1>Burger Logger</h1>
 </div>
 
 <div class="burger-list">
   {{!-- If devoured returns a falsy value (ie, not yet devoured), Handlebars WILL render burger-block partial, setting devoured to false. 
 Otherwise, it will render nothing. --}}
   <div class="not-devoured">
-    <h2>Order Here</h2>
+    <h2>EAT SUM BURGERS</h2>
     <ul>
       {{#each burgers}}
       {{#unless devoured}}

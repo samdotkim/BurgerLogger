@@ -1,8 +1,8 @@
 /* Layout */
 body {
-    font-family: 'DM Mono', sans-serif;
+    font-family: 'Fredoka One', sans-serif;
     margin: 40px;
-    background-color: #FDCA21;
+    background-color: #2c2444;
 }
 
 .container {
@@ -37,12 +37,12 @@ li {
 
 /* Header */
 h1 {
-    font-family: 'Bungee Shade', sans-serif;
+    font-family: 'Fredoka One', cursive;
     font-size: 36px;
 }
 
 h2 {
-    font-family: 'DM Mono', monospace;
+    font-family: 'Fredoka One', monospace;
     margin-bottom: 28px;
 }
 

@@ -16,7 +16,7 @@
     "MVC",
     "Node"
   ],
-  "author": "Connie Tran",
+  "author": "samdotkim",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
