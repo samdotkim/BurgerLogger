@@ -1,7 +1,7 @@
 {
   "name": "eat-tha-burger",
   "version": "1.0.0",
-  "description": "An MVC burger logger ORM",
+  "description": "An MVC burger logger",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -16,7 +16,7 @@
     "MVC",
     "Node"
   ],
-  "author": "Connie Tran",
+  "author": "samdotkim",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
