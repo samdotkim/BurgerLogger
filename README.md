@@ -1,8 +1,8 @@
-# Eat Da Burger: Node Express & Handlebars
+# Full Stack Burgers BurgerLogger (Node Express Handlebars)
 
-## A Full-Stack App
+## Overview
 
-This full-stack web application is a restaurant app that utilizes:
+A full-stack app that uses the following technologies:
 
 * MySQL
 * NodeJS
@@ -10,19 +10,17 @@ This full-stack web application is a restaurant app that utilizes:
 * Handlebars.js, &
 * A DIY Object-Relational-Mapper / ORM
 
-This full-stack app follows an MVC design paradigm, using Node and MySQL to query and route data in the app, and Handlebars to dynamically generate HTML.
+Follows an MVC design paradigm, using Node and MySQL to query and route data in the app, and Handlebars to dynamically generate HTML.
 
-The live site is deployed to Heroku from this GitHub repo with a MySQL JAWSDB database server. 
+The live site can be viewed here: https://burgerstack.herokuapp.com/
 
-The live site can be viewed here: https://fast-bayou-41214.herokuapp.com/
-
-![Burger Stack Homepage]
+Heroku Deployment: MySQL JAWSDB server
 
 ## Functionality
 
 Burger Stack is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app displays the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area has a `Eat Me!` button. When the user clicks it, the burger will move to the right side of the page.
 
-The app stores every burger in a MySQL database that is persisted, along with their devoured status.
+The app stores every burger in a MySQL database that is persisted, along with their 'devoured' status.
 
 ## Model-View-Controller / MVC Paradigm
 
@@ -73,5 +71,4 @@ All the recommended files and directories from the steps above should look like 
     └── layouts
         └── main.handlebars
 ```
-
-```
+![screenshot](demo.png
