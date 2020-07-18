@@ -12,7 +12,7 @@ A full-stack app that uses the following technologies:
 
 Follows an MVC design paradigm, using Node and MySQL to query and route data in the app, and Handlebars to dynamically generate HTML.
 
-The live site can be viewed here: https://burgerstack.herokuapp.com/
+The live site can be viewed here: https://samdotkim-burgerlogger.herokuapp.com/
 
 Heroku Deployment: MySQL JAWSDB server
 
