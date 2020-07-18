@@ -14,7 +14,7 @@ This full-stack app follows an MVC design paradigm, using Node and MySQL to quer
 
 The live site is deployed to Heroku from this GitHub repo with a MySQL JAWSDB database server. 
 
-The live site can be viewed here: https://samdotkim-burgerlogger.herokuapp.com/
+The live site can be viewed here: https://burgerstack.herokuapp.com/
 
 ![Burger Stack Homepage](burgerstack.png)
 
