@@ -14,7 +14,7 @@ This full-stack app follows an MVC design paradigm, using Node and MySQL to quer
 
 The live site is deployed to Heroku from this GitHub repo with a MySQL JAWSDB database server. 
 
-The live site can be viewed here: https://burgerstack.herokuapp.com/
+The live site can be viewed here: https://samdotkim-burgerlogger.herokuapp.com/
 
 ![Burger Stack Homepage](burgerstack.png)
 
@@ -34,41 +34,44 @@ The HTML is dynamically generated using the Handlebars.js template engine, separ
 
 And finally, Express.js is used as Controllers to handle inputs from the user, to interact with the Model for CRUD operations, and to return query results to the View, separating client-side from server-side routes. 
 
-### Directory structure
+#### Directory structure
 
-The application repository is composed of the following directory structure which reflects the MVC design paradigm.
+All the recommended files and directories from the steps above should look like the following structure:
 
 ```
 .
 ├── config
-│   ├── connection.js       // MySQL database connection
-│   └── orm.js              // DIY object-relational-mapper to query MySQL db
+│   ├── connection.js
+│   └── orm.js
 │ 
 ├── controllers
-│   └── burgers_controller.js    // Express routes
+│   └── burgers_controller.js
 │
 ├── db
-│   └── db.sql             // MySQL db schema and seeds
+│   ├── schema.sql
+│   └── seeds.sql
 │
 ├── models
-│   └── burger_model.js    // Data model for burgers
+│   └── burger.js
 │ 
-├── package.json           // NodeJS app metdata
+├── node_modules
+│ 
+├── package.json
 │
-├── public                 // Site assets and client-side logic
+├── public
 │   └── assets
 │       ├── css
 │       │   └── burger_style.css
-│       └── js
-│           └── burger_page.js
+│       └── img
+│           └── burger.png
+│   
 │
-├── views                  // Handlebars templates
-│   └── layouts
-│       ├── main.handlebars
-│   └── partials
-│       │   └── burgers
-│       │         └── burger-block.handlebars
-|   └── index.handlebars
-|
-├── server.js             // Express server
+├── server.js
+│
+└── views
+    ├── index.handlebars
+    └── layouts
+        └── main.handlebars
+```
+
 ```
